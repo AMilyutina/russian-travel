@@ -1,0 +1,9 @@
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 92px auto 0;
+    padding-bottom: 24px;
+    max-width: 1184px;
+    position: relative;
+}

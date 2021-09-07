@@ -1,0 +1,8 @@
+.cover {
+    margin: 92px auto 0;
+    position: relative;
+    width: 90%;
+    object-fit: contain;
+    position: relative;
+    text-align: center;
+}
