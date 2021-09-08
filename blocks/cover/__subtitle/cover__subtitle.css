@@ -6,8 +6,13 @@
     text-align: center;
     max-width: 360px;
     font-weight: 400;
-    position: absolute;
-    top: 60%;
-    right: 40%;
-    z-index: 3;
+    margin: 0;
+    padding: 0 412px 245px;
+    z-index: 2;
+    position: relative;
+    text-rendering: optimizeLegibility;
+}
+
+.cover__subtitle:hover {
+    cursor: pointer;
 }

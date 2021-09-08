@@ -6,8 +6,13 @@
     font-size: 72px;
     line-height: 76px;
     max-width: 560px;
-    position: absolute;
-    top: 30%;
-    left: 30%;
-    z-index: 3;
+    padding: 245px 312px 32px;
+    margin: 0;
+    z-index: 2;
+    position: relative;
+    text-rendering: optimizeLegibility;
+}
+
+.cover__title {
+    cursor: pointer;
 }

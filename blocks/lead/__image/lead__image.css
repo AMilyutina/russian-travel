@@ -4,3 +4,32 @@
     margin: auto;
     display: block;
 }
+
+@media screen and (max-width: 1024px) {
+    .lead__image {
+        max-width: 100%;
+        max-height: 580px;
+        margin: auto;
+        display: block;
+    }   
+ } 
+
+ @media screen and (max-width: 768px) {
+    .lead__image {
+        max-width: 100%;
+        max-height: 480px;
+        margin: auto;
+        display: block;
+    }   
+ } 
+ 
+ @media screen and (max-width: 320px) {
+    .lead__image {
+        max-width: 100%;
+        max-height: 200px;
+        margin: auto;
+        display: block;
+    }   
+ } 
+ 
+ 

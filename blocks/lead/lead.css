@@ -1,6 +1,31 @@
 .lead {
-    height: 1005px;
-    width: 984px;
+    max-height: 1005px;
     position: relative;
     margin: auto;
 }
+
+@media screen and (max-width: 1024px) {
+    .lead {
+        max-height: 962px;
+        position: relative;
+        margin: auto;
+    }  
+ } 
+
+ @media screen and (max-width: 768px) {
+    .lead {
+        max-height: 862px;
+        position: relative;
+        margin: auto;
+    }
+ } 
+ 
+ @media screen and (max-width: 320px) {
+    .lead {
+        max-height: 406px;
+        position: relative;
+        margin: auto;
+    }  
+ } 
+ 
+ 
