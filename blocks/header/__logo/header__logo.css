@@ -9,8 +9,7 @@
     .header__logo {
         background-image: url(../../../images/header-logo.svg);
         background-repeat: no-repeat;
-        height: 42px;
-        width: 142px;
+        background-size: 142px 42px;
     }
  } 
  
