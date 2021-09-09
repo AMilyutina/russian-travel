@@ -1,10 +1,10 @@
 .place__website_content_link {
-    color: #fff;
-    font-family: 'Inter';
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.2;
-    margin: 0;
+  color: #fff;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.2;
+  margin: 0;
 }
 
 .place__website_content_link:hover {

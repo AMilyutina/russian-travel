@@ -1,10 +1,10 @@
 .place__website_content_url-heading {
-    color: #aaa;
-    font-family: 'Inter';
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1;
-    letter-spacing: 2px;
-    margin: 0;
-    margin-bottom: 16px;
+  color: #aaa;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: 2px;
+  margin: 0;
+  margin-bottom: 12px;
 }

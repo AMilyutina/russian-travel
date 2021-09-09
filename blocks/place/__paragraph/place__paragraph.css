@@ -1,4 +1,32 @@
 .place__paragraph {
+  color: #fff;
+  font-family: 'Inter';
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 26px;
+  margin-left: 40px;
+  grid-column: 2;
+}
+
+
+  @media screen and (max-width: 1024px) {
+    .place__paragraph {
+      color: #fff;
+      font-family: 'Inter';
+      font-size: 18px;
+      line-height: 1.6;
+      font-weight: 400;
+      margin: 0;
+      margin-bottom: 26px;
+      margin-left: 32px;
+      grid-column: 2;
+    }
+ }
+
+ @media screen and (max-width: 768px) {
+  .place__paragraph {
     color: #fff;
     font-family: 'Inter';
     font-size: 18px;
@@ -6,57 +34,21 @@
     font-weight: 400;
     margin: 0;
     margin-bottom: 26px;
-}
-
-.place__paragraph:nth-child(2) {
-    margin-bottom: 0;
+    margin-left: 28px;
+    grid-column: 2;
   }
+ }
 
-  @media screen and (max-width: 1024px) {
-    .place__paragraph {
-        color: #fff;
-        font-family: 'Inter';
-        font-size: 18px;
-        line-height: 1.6;
-        font-weight: 400;
-        margin: 0;
-        margin-bottom: 25px;
-    }
-    
-    .place__paragraph:nth-child(2) {
-        margin-bottom: 0;
-      }   
- } 
-
- @media screen and (max-width: 768px) {
-    .place__paragraph {
-        color: #fff;
-        font-family: 'Inter';
-        font-size: 18px;
-        line-height: 1.6;
-        font-weight: 400;
-        margin: 0;
-        margin-bottom: 25px;
-    }
-    
-    .place__paragraph:nth-child(2) {
-        margin-bottom: 0;
-      }      
- } 
- 
   @media screen and (max-width: 320px) {
     .place__paragraph {
-        color: #fff;
-        font-family: 'Inter';
-        font-size: 18px;
-        line-height: 1.6;
-        font-weight: 400;
-        margin: 0;
-        margin-bottom: 25px;
+      color: #fff;
+      font-family: 'Inter';
+      font-size: 18px;
+      line-height: 1.6;
+      font-weight: 400;
+      margin: 0;
+      margin-bottom: 26px;
+      margin-left: 16px;
+      grid-column: 1;
     }
-    
-    .place__paragraph:nth-child(2) {
-        margin-bottom: 0;
-      }
- } 
- 
+ }
