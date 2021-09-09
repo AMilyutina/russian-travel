@@ -1,6 +1,6 @@
 .place__website {
     position: absolute;
-    left: 500px;
+    right: 485px;
     top: 76px;
 }
 
@@ -8,21 +8,20 @@
     .place__website {
         float: left;
         margin-top: -48px;
-    }     
- } 
+    }
+ }
 
  @media screen and (max-width: 768px) {
     .place__website {
         float: left;
         margin-top: -48px;
-    }    
- } 
- 
+    }
+ }
+
  @media screen and (max-width: 320px) {
     .place__website {
         float: left;
         margin-top: -48px;
         margin-left: 16px;
-    }    
- } 
- 
+    }
+ }
