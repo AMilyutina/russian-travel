@@ -1,29 +1,26 @@
 .header {
-    background-color: #2A2C2F;
-    max-height: 52px;
-    padding: 28px 48px 56px;
-    position: relative;
+  background-color: #2A2C2F;
+  max-height: 52px;
+  padding: 28px 48px 56px;
+  display: flex;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 1024px) {
-    .header {
-        background-color: #2A2C2F;
-        max-height: 52px;
-        padding: 28px 48px 48px;
-        position: relative;
-    }    
- } 
+  .header {
+    padding: 28px 48px 48px;
+}
+ }
 
  @media screen and (max-width: 768px) {
-    .header {
-        background-color: #2A2C2F;
-        max-height: 52px;
-        padding: 28px 24px 48px;
-        position: relative;
-    }    
- } 
+  .header {
+    padding: 28px 24px 48px;
+}
+ }
 
 @media screen and (max-width: 320px) {
-
-    
- } 
+  .header {
+    max-height: 42px;
+    padding: 16px 16px 48px;
+}
+ }
