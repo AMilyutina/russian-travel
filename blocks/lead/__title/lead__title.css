@@ -11,7 +11,7 @@
   text-rendering: optimizeLegibility;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 654px) {
   .lead__title {
     font-family: 'Inter';
     font-size: 40px;
@@ -23,5 +23,5 @@
     text-align: center;
     text-rendering: optimizeLegibility;
     padding: 0 16px 0 16px;
+  }
 }
- }

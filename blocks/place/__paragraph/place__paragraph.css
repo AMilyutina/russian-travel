@@ -10,15 +10,14 @@
   grid-column: 2;
 }
 
-
-  @media screen and (max-width: 1024px) {
-    .place__paragraph {
-      margin-left: 32px;
-      grid-column: 2;
-    }
+@media screen and (max-width: 1024px) {
+  .place__paragraph {
+    margin-left: 32px;
+    grid-column: 2;
+  }
  }
 
- @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .place__paragraph {
     font-size: 16px;
     line-height: 26px;
@@ -26,9 +25,9 @@
   }
  }
 
-  @media screen and (max-width: 320px) {
-    .place__paragraph {
-      margin-left: 16px;
-      grid-column: 1;
-    }
+@media screen and (max-width: 654px) {
+  .place__paragraph {
+    margin-left: 16px;
+    grid-column: 1;
+  }
  }

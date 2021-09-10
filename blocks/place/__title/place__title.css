@@ -18,8 +18,8 @@
     margin: 0 0 48px;
     grid-row: 1;
     grid-column: 1;
+  }
 }
- }
 
  @media screen and (max-width: 768px) {
   .place__title {
@@ -29,10 +29,10 @@
     margin: 0 0 48px;
     grid-row: 1;
     grid-column: 1;
+  }
 }
- }
 
- @media screen and (max-width: 320px) {
+ @media screen and (max-width: 654px) {
   .place__title {
     font-size: 32px;
     line-height: 35px;
@@ -40,5 +40,5 @@
     margin: 0 0 32px 16px;
     grid-row: 1;
     grid-column: 1;
+  }
 }
- }

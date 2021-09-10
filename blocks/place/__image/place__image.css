@@ -8,21 +8,18 @@
 @media screen and (max-width: 1024px) {
   .place__image {
     grid-row: 2/4;
-    grid-column: 1;
+  }
 }
- }
 
  @media screen and (max-width: 768px) {
   .place__image {
     grid-row: 2/4;
-    grid-column: 1;
+  }
 }
- }
 
- @media screen and (max-width: 320px) {
+ @media screen and (max-width: 654px) {
   .place__image {
     grid-row: 3/4;
-    grid-column: 1;
     margin-bottom: 32px;
+  }
 }
- }

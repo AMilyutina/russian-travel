@@ -11,26 +11,24 @@
 @media screen and (max-width: 1024px) {
   .footer {
     margin: 92px auto 0;
-    max-width: 1184px;
-    position: relative;
+    max-width: 928px;
+  }
 }
- }
 
  @media screen and (max-width: 768px) {
   .footer {
     margin: 88px 24 0;
-    max-width: 1184px;
-    position: relative;
+    max-width: 720px;
+  }
 }
- }
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 654px) {
   .footer {
-    position: relative;
     flex-direction: column;
     align-content: flex-start;
     align-items: flex-start;
+    max-width: 186px;
     margin: 64px auto 0 16px;
+  }
 }
- }

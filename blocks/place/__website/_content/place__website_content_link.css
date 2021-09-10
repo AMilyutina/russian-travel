@@ -5,8 +5,10 @@
   font-size: 18px;
   line-height: 1.2;
   margin: 0;
+  transition: 2s;
 }
 
 .place__website_content_link:hover {
     cursor: pointer;
+    opacity: 0.8;
 }

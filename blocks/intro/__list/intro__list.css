@@ -9,9 +9,8 @@
   margin: 33px auto 0;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 654px) {
   .intro__list {
     margin: 34px auto 0;
+  }
 }
- }
-
