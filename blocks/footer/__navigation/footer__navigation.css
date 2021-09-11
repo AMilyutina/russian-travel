@@ -1,0 +1,33 @@
+.footer__navigation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 92px auto 0;
+  padding-bottom: 24px;
+  max-width: 1184px;
+  position: relative;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer__navigation {
+    max-width: 928px;
+  }
+}
+
+ @media screen and (max-width: 768px) {
+  .footer__navigation {
+    margin: 88px 24px 0;
+    max-width: 720px;
+  }
+}
+
+
+@media screen and (max-width: 654px) {
+  .footer__navigation {
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+    max-width: 186px;
+    margin: 64px auto 0 16px;
+  }
+}

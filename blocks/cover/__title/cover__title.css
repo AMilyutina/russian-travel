@@ -1,15 +1,13 @@
 .cover__title {
   color: #fff;
-  font-family: 'Inter';
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   text-align: center;
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
   max-width: 560px;
-  padding: 245px 312px 32px;
-  margin: 0;
+  margin: 0 auto;
   z-index: 2;
-  position: relative;
   text-rendering: optimizeLegibility;
 }
 
@@ -17,15 +15,9 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 1024px) {
-  .cover__title {
-    padding: 195px 232px 32px;
-  }
-}
-
  @media screen and (max-width: 768px) {
   .cover__title {
-    padding: 115px 104px 32px;
+
   }
 }
 
@@ -34,6 +26,6 @@
     font-size: 32px;
     line-height: 35px;
     max-width: 288px;
-    padding: 33px 16px 16px;
+
   }
 }

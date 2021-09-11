@@ -1,7 +1,6 @@
 .cover {
   background-image: url(../../images/cover-trains.jpg);
   background-position: center;
-  max-height: 740px;
   max-width: 1184px;
   background-size: cover;
   margin: 92px auto 0;
@@ -30,7 +29,6 @@
   .cover {
     max-height: 640px;
     max-width: 1024px;
-    margin: 92px auto 0;
   }
 }
 
@@ -46,6 +44,6 @@
   .cover {
     max-height: 200px;
     max-width: 320px;
-    margin: 99px auto 0;
+    margin: 66px auto 0;
    }
 }

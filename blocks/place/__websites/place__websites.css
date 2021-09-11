@@ -1,24 +1,27 @@
-.place__website {
+.place__websites {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 400;
   grid-row: 1;
   grid-column: 2;
   align-self: center;
+  margin: 0;
   margin-left: 40px;
 }
 
 @media screen and (max-width: 1024px) {
-  .place__website {
+  .place__websites {
     margin-left: 32px;
   }
  }
 
  @media screen and (max-width: 768px) {
-  .place__website {
+  .place__websites {
     margin-left: 28px;
   }
  }
 
  @media screen and (max-width: 654px) {
-  .place__website {
+  .place__websites {
     grid-row: 2;
     grid-column: 1;
     margin-left: 16px;

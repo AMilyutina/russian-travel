@@ -1,15 +1,13 @@
 .cover__subtitle {
   color: #fff;
-  font-family: 'Inter';
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-size: 18px;
   line-height: 22px;
   text-align: center;
   max-width: 360px;
   font-weight: 400;
-  margin: 0;
-  padding: 0 412px 245px;
+  margin: 32px auto 0;
   z-index: 2;
-  position: relative;
   text-rendering: optimizeLegibility;
 }
 
@@ -17,15 +15,9 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 1024px) {
-  .cover__subtitle {
-    padding: 0 332px 195px;
-  }
-}
-
  @media screen and (max-width: 768px) {
   .cover__subtitle {
-    padding: 0 204px 115px;
+
   }
 }
 
@@ -33,6 +25,7 @@
   .cover__subtitle {
     font-size: 14px;
     line-height: 16px;
-    padding: 0 16px 33px;
+    margin: 16px auto 0;
+    max-width: 288px
   }
 }

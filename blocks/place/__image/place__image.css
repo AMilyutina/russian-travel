@@ -7,19 +7,20 @@
 
 @media screen and (max-width: 1024px) {
   .place__image {
-    grid-row: 2/4;
+    max-width: 440px;
   }
 }
 
- @media screen and (max-width: 768px) {
+ @media screen and (max-width: 950px) {
   .place__image {
-    grid-row: 2/4;
+    max-width: 340px;
   }
 }
 
  @media screen and (max-width: 654px) {
   .place__image {
     grid-row: 3/4;
+    max-width: 320px;
     margin-bottom: 32px;
   }
 }
