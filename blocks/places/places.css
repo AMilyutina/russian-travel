@@ -1,6 +1,10 @@
 .places {
   max-width: 984px;
+<<<<<<< HEAD
   margin: 92px auto 0;
+=======
+  margin: auto;
+>>>>>>> b5a6f54e72fa581910b537481eb4f27a3e178127
 }
 
 @media screen and (max-width: 1024px) {
