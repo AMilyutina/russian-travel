@@ -2,21 +2,22 @@
   margin: 92px auto 0;
   padding-bottom: 24px;
   max-width: 1184px;
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  align-content: space-between;
 }
 
 @media screen and (max-width: 1215px) {
   .footer {
     max-width: 928px;
-    margin: 92px 48px 24px 48px;
+    margin: 92px 48px 0 48px;
   }
 }
 
  @media screen and (max-width: 768px) {
   .footer {
-    margin: 88px 24px 24px 24px;
-=======
-    margin: 88px 24px 0;
->>>>>>> b5a6f54e72fa581910b537481eb4f27a3e178127
+    margin: 88px 24px 0 24px;
     max-width: 720px;
   }
 }

@@ -2,8 +2,7 @@
   color: #fff;
   font-size: 18px;
   line-height: 1.2;
-  transition: 2s;
-  margin: 0 0 12px 0;
+  transition: opacity .2s;
 }
 
 .place__website_content_link:hover {

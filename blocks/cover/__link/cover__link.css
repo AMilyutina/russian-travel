@@ -1,7 +1,7 @@
 .cover__link {
   text-decoration: none;
   display: flex;
-  height: 740px;
+  min-height: 740px;
   flex-direction: column;
   align-content: center;
   justify-content: center;
@@ -9,18 +9,18 @@
 
 @media screen and (max-width: 1024px) {
   .cover__link  {
-    height: 640px;
+    min-height: 640px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover__link {
-    height: 480px;
+    min-height: 480px;
   }
 }
 
 @media screen and (max-width: 654px) {
   .cover__link {
-    height: 200px;
+    min-height: 200px;
    }
 }
