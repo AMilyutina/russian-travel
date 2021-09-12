@@ -17,7 +17,11 @@
 
  @media screen and (max-width: 768px) {
   .footer {
+<<<<<<< HEAD
     margin: 88px 24px 0 24px;
+=======
+    margin: 88px 24px 24px 24px;
+>>>>>>> 40c8abf5e8e1f54aad23fbc732aff0ba5bb00a7d
     max-width: 720px;
   }
 }
