@@ -10,26 +10,20 @@
 
 @media screen and (max-width: 1215px) {
   .footer {
-    max-width: 928px;
     margin: 92px 48px 0 48px;
+    max-width: calc(100vw - 96px);
   }
 }
 
  @media screen and (max-width: 768px) {
   .footer {
-<<<<<<< HEAD
     margin: 88px 24px 0 24px;
-=======
-    margin: 88px 24px 24px 24px;
->>>>>>> 40c8abf5e8e1f54aad23fbc732aff0ba5bb00a7d
-    max-width: 720px;
   }
 }
 
 
 @media screen and (max-width: 654px) {
   .footer {
-    max-width: 186px;
     margin: 64px auto 0 16px;
   }
 }
